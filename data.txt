@@ -1,0 +1,10 @@
+id, name, age
+1, Niraj, 23
+2, Joel, 22
+3, Aniket, 24
+4, Akash, 17
+5, Dipesh, 12
+6, Smith, 21
+7, Varun, 16
+8, Akhilesh, 26
+9, Sukaji, 29
