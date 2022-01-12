@@ -1,4 +1,5 @@
-""" Task Details: Reading data from file and filtering it using map and filter function"""
+""" Task Details: Reading data from file and filtering it using map and filter function
+and then sorting the data according to age."""
 
 
 # Formatting data
@@ -44,6 +45,8 @@ try:
     headers = [mapped_data[0]]
 
     filtered_data = filter_data(mapped_data[1:])
+
+    # Sorting the data according to age
     filtered_data.sort(key=lambda x: int(x[-1]))
 
     # Attaching header to final data
